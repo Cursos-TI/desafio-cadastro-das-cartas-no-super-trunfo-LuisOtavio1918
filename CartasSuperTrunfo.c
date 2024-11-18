@@ -6,13 +6,17 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    char codigo da cidade ,nome [50];
-    int pontos turísticos ,população;
-    float pib, area;
+
+    char nome [50];
+    int pontos turisticos; 
+    int população;
+    float pib; 
+    float area;
+    int codigo da cidade;
     
 
     printf("Digite o codigo da cidade: \n");
-    scanf("%s", &codigo da cidade);
+    scanf("%s", '&codigo da cidade');
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", &nome);
